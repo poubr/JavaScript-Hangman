@@ -1,0 +1,62 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family:'Courier New', Courier, monospace;
+    font-size: 1.5rem;
+    background-color: #F4EEE0;
+    color: #393646;
+}
+
+.hangman-game {
+    width: 500px;
+    height: 520px;
+    margin: 5% auto;
+}
+
+.heading {
+    text-align: center;
+    font-size: 2rem;
+    padding: 2%;
+    font-weight: 800;
+}
+
+.guess {
+    margin: 3% auto;
+    width: 300px;
+    height: 30px;
+    text-align: center;
+    font-size: 2rem;
+    letter-spacing: 5px;
+}
+
+.buttons {
+    width: 350px;
+    height: 250px;
+    margin: 0% auto;
+    text-align: center;
+}
+
+.buttons > button {
+    width: 40px;
+    height: 40px;
+    margin: 1%;
+    font-weight: 600;
+    background-color: #C0DBEA;
+}
+
+.game-state {
+    width: 200px;
+    height: 30px;
+    font-size: 2rem;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.hangman {
+    width: 120px;
+    height: 200px;
+    margin: -120px auto;
+
+}
