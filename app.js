@@ -123,7 +123,9 @@ class Hangman {
                 this.hangman.innerHTML = this.stage0;
                 this.endGame();
                 break;
-            }
+            }                  
+            default:
+                return;
         }
     }
 
